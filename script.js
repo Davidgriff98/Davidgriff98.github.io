@@ -7,7 +7,8 @@ const img_url = 'https://image.tmdb.org/t/p/w500';
 function getMovies(url){
 
     fetch(url).then(res => res.json()).then(data => {
-        console.log(data);
+        console.log(data)
+        showMovies(data.results);
     })
 }
 
