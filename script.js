@@ -9,6 +9,8 @@ const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
 
+getMovies(api_url);
+
 
 function getMovies(url){
 
@@ -55,5 +57,8 @@ form.addEventListener('sumbit', (e) => {
 
     if(searchTerm) {
         getMovies(searchUrl + '&query=' + searchTerm)
+    }
+    else{
+        getMovies(api_url);
     }
 })
