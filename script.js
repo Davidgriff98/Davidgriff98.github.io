@@ -63,7 +63,6 @@ form.addEventListener('submit', (e) => {
         getMovies(api_url);
     }
     else {
-        not-found
-
+        <h2>Sorry, try a different search</h2>
     }
 })
