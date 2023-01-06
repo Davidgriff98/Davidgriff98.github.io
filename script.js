@@ -1,7 +1,7 @@
 
 const api_key = '80499a64a51f7b88c3f5ceab77272dde';
 const base_url = 'https://api.themoviedb.org/3';
-//const api_url = base_url + 
+const api_url = base_url + '/movie/now_playing?api_key=80499a64a51f7b88c3f5ceab77272dde &language=en-US&page=1';
 const img_url = 'https://image.tmdb.org/t/p/w500';
 
 const main = document.getElementById('main');
