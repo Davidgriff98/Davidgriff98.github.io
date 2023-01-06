@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 
 :root{
     --primary-color: #696969; 
@@ -8,6 +10,8 @@
 
 body{
     background-color: var(--primary-color);
+    font-family: 'Merriweather';
+    margin: 0;
 
 }
 
