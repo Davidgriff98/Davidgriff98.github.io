@@ -15,7 +15,7 @@ getMovies(api_url);
 function getMovies(url){
 
     fetch(url).then(res => res.json()).then(data => {
-        console.log(data.results);
+        
         showMovies(data.results);
     })
 }
@@ -28,19 +28,19 @@ function showMovies(data) {
         const movieEl = document.createElement('div');
         movieEl.classList.add('movie');
         movieEl.innerHTML = `
-        <img src = "${img_url + poster_path }" alt="${title}">
+            <img src = "${img_url + poster_path }" alt="${title}">
 
-        <div class="movie-info">
-          <h3>${title}</h3> 
-          
-        </div>
+            <div class="movie-info">
+            <h3>${title}</h3> 
+            
+            </div>
 
-        <div class="overview">
-            <h3>"overview"</h3>
-            ${overview}
+            <div class="overview">
+                <h3>"overview"</h3>
+                ${overview}
 
 
-          </div>
+            </div>
         
         
         `
