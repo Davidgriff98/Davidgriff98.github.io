@@ -59,10 +59,7 @@ form.addEventListener('submit', (e) => {
     if(searchTerm) {
         getMovies(searchUrl+'&query='+searchTerm)
     }
-    else if(searchterm = ''){
+    else{
         getMovies(api_url);
-    }
-    else {
-        <h2>Sorry, try a different search</h2>
     }
 })
