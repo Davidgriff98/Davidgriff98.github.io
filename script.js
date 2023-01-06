@@ -50,13 +50,14 @@ function showMovies(data) {
     })
 }
 
+//submit search
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     const searchTerm = search.value;
 
     if(searchTerm) {
-        getMovies(searchUrl + '&query=' + searchTerm)
+        getMovies(searchUrl+'&query='+searchTerm)
     }
     else{
         getMovies(api_url);
