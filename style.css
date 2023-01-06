@@ -7,7 +7,7 @@
 
 :root{
     --primary-color: #696969; 
-    --secondary-color: #4682B4;
+    --secondary-color: #800000;
 
 }
 
@@ -28,6 +28,7 @@ Header{
 }
 
 .search{
+    background-color: transparent;
     border: 2px solid var(--primary-color);
     padding: 0.5rem 1rem; 
     border-radius: 50px;
