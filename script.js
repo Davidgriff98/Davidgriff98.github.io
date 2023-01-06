@@ -36,7 +36,7 @@ function showMovies(data) {
             </div>
 
             <div class="overview">
-                <h3>"overview"</h3>
+                <h3>Overview</h3>
                 ${overview}
 
 
